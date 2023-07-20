@@ -13,7 +13,7 @@ const ColorPicker: React.FC<ColorPickerProps> = ({ color, setColor }) => {
   return (
     <div className="relative">
       <button 
-        className="p-2 bg-gray-700 rounded text-white"
+        className="p-2 bg-gray-700 rounded text-white mx-2"
         onClick={handleClick}
       >
         Pick Color
